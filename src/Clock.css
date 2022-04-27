@@ -1,0 +1,30 @@
+.clock {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 10px;
+}
+
+.clock h4 {
+  margin: 0;
+}
+
+.clock h4:focus-visible {
+  outline-style: none;
+}
+
+.clock:focus-visible {
+  outline-style: none;
+}
+
+.clock span {
+  font-weight: bold;
+  color: lightcoral;
+  margin-left: 10px;
+}
+
+.clock span:hover {
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+}
