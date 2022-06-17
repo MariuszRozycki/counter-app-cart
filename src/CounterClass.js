@@ -15,39 +15,11 @@ class CounterClass extends Component {
       counterValue: this.props.initValue,
       showClock: true
     };
-
-    // this.changeValue = this.changeValue.bind(this); ES 5 (binding this)
   }
 
   /* methods */
-  // changeValue = () => {
-  //   this.setState({
-  //     counterValue: this.state.counterValue + 1
-  //   })
-  // }
 
-  // changeValue() { ES 5 (no this - binding in constructor method)
   changeValue = (action) => {
-
-    // let currentCounterValue = this.state.counterValue;
-
-    // if (action === "add") {
-
-    //   currentCounterValue += 1;
-
-    // } else if (action === "reinit") {
-
-    //   currentCounterValue = this.props.initValue;
-
-    // } else {
-
-    //   currentCounterValue = 0;
-    // }
-
-    // this.setState({});
-    // this.setState({
-    //   counterValue: currentCounterValue
-    // });
 
     this.setState((prevState, prevProps) => {
 
